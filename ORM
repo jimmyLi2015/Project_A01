@@ -1,3 +1,9 @@
+import asyncio, logging
+import aiomysql
+
+def log(sql, args()):
+    logging.info('SQL:%s' % sql)
+
 #create pool to receive http requests
 @asyncio.coroutine
 def create_pool(loop, **kw):
@@ -45,6 +51,13 @@ def execute(sql, args):
         except BaseException as e:
             raise
         return affected
+
+
+def create_args_string(num):
+    L = []
+    for n in range(num):
+        L.append('?')
+    return ', '.join(L)
 
 #class user (link to database table users)
 from orm import Model, StringField, IntegerField
