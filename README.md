@@ -4,20 +4,20 @@ a testing project based on Michael Liao's blog
 
 Well, I set up this repo to build a website by using python.
 
-awesome-python3-webapp/  <-- 根目录
+awesome-python3-webapp/  <-- root directory
 |
-+- backup/               <-- 备份目录
++- backup/               <-- backup directory
 |
-+- conf/                 <-- 配置文件
++- conf/                 <-- configuration files
 |
-+- dist/                 <-- 打包目录
++- dist/                 <-- dist directory
 |
-+- www/                  <-- Web目录，存放.py文件
++- www/                  <-- Web directory for .py files
 |  |
-|  +- static/            <-- 存放静态文件
+|  +- static/            <-- static files
 |  |
-|  +- templates/         <-- 存放模板文件
+|  +- templates/         <-- template files
 |
-+- ios/                  <-- 存放iOS App工程
++- ios/                  <-- iOS files
 |
-+- LICENSE               <-- 代码LICENSE
++- LICENSE               <-- code license
